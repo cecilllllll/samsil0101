@@ -624,7 +624,8 @@ document.addEventListener("dragleave", function( event ) {
 
 const letter1 = document.querySelector(".lettersAfter div:nth-child(1)>img:nth-child(2)")
 var link = 'https://cecilllllll.github.io/classic/';
-var link2 = 'file:///Users/rhea/Desktop/C%E1%84%85%E1%85%A2%E1%86%B8%20/Hawatttang/index.html#credit';
+var link2 = '';
+var link3 = 'https://cecilllllll.github.io/potato/';
 
  letter1.addEventListener("click", () =>{
        location.href =link;
@@ -643,7 +644,7 @@ var link2 = 'file:///Users/rhea/Desktop/C%E1%84%85%E1%85%A2%E1%86%B8%20/Hawattta
  const letter3 = document.querySelector(".lettersAfter div:nth-child(3)>img:nth-child(2)")
 
  letter3.addEventListener("click", () =>{
-    window.open('file:///Users/rhea/Desktop/C%E1%84%85%E1%85%A2%E1%86%B8%20/samsil/indexEco.html', '_blank');
+    location.href =link3;
  })
 
 
