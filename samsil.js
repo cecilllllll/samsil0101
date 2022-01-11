@@ -626,7 +626,6 @@ const letter1 = document.querySelector(".lettersAfter div:nth-child(1)>img:nth-c
 
  letter1.addEventListener("click", () =>{
        location.href = 'https://cecilllllll.github.io/classic/';
-
  })
 
 
