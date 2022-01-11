@@ -627,6 +627,7 @@ var link = 'https://cecilllllll.github.io/classic/';
 var link2 = '';
 var link3 = 'https://cecilllllll.github.io/eco/';
 var link4 = 'https://cecilllllll.github.io/potato/';
+var link5 = 'https://cecilllllll.github.io/none/';
 
  letter1.addEventListener("click", () =>{
        location.href =link;
@@ -661,7 +662,7 @@ var link4 = 'https://cecilllllll.github.io/potato/';
  const letter5 = document.querySelector(".lettersAfter div:nth-child(5)>img:nth-child(2)")
 
  letter5.addEventListener("click", () =>{
-    window.open('file:///Users/rhea/Desktop/C%E1%84%85%E1%85%A2%E1%86%B8%20/samsil/indexNone.html', '_blank');
+   location.href =link5;
  })
 
 
