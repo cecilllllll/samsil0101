@@ -625,7 +625,7 @@ document.addEventListener("dragleave", function( event ) {
 const letter1 = document.querySelector(".lettersAfter div:nth-child(1)>img:nth-child(2)")
 
  letter1.addEventListener("click", () =>{
-       window.open('file:///Users/rhea/Desktop/C%E1%84%85%E1%85%A2%E1%86%B8%20/samsil/indexClassic.html', '_blank');
+       window.open('https://cecilllllll.github.io/classic/', '_blank');
 
  })
 
