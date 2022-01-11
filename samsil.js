@@ -625,7 +625,8 @@ document.addEventListener("dragleave", function( event ) {
 const letter1 = document.querySelector(".lettersAfter div:nth-child(1)>img:nth-child(2)")
 var link = 'https://cecilllllll.github.io/classic/';
 var link2 = '';
-var link3 = 'https://cecilllllll.github.io/potato/';
+var link3 = 'https://cecilllllll.github.io/eco/';
+var link4 = 'https://cecilllllll.github.io/potato/';
 
  letter1.addEventListener("click", () =>{
        location.href =link;
@@ -652,7 +653,7 @@ var link3 = 'https://cecilllllll.github.io/potato/';
  const letter4 = document.querySelector(".lettersAfter div:nth-child(4)>img:nth-child(2)")
 
  letter4.addEventListener("click", () =>{
-    window.open('file:///Users/rhea/Desktop/C%E1%84%85%E1%85%A2%E1%86%B8%20/samsil/indexPotato.html', '_blank');
+    location.href =link4;
  })
 
 
