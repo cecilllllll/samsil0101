@@ -1,0 +1,365 @@
+/*mymind*/
+#myMind {
+  background: #4151A3;
+  width: 100%;
+  height: 100%;
+}
+
+#lockbox {
+  z-index: 15;
+  position: absolute;
+  width: 62.153vw;
+  height: 46.875vw;
+  left: 38%;
+  top: 15%;
+  background: #A26887;
+  border: 1px solid #000000;
+}
+
+.changebox {
+  animation: hallo 2s forwards;
+}
+
+@keyframes hallo {
+  from {
+    opacity: 1;
+    left: 38%;
+  }
+
+  to {
+    opacity: 1;
+    left: 100%;
+  }
+}
+
+
+#shadow {
+  z-index: 14;
+  position: absolute;
+  width: 69.444vw;
+  height: 46.875vw;
+  left: 36%;
+  top: 15%;
+  background: #744C62;
+  border: 1px solid #000000;
+
+}
+
+.changebox2 {
+  animation: hallo2 2s forwards;
+}
+
+@keyframes hallo2 {
+  from {
+    left: 38%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+#lockText {
+  z-index: 16;
+  position: absolute;
+  width: 30.417vw;
+  height: 9.722vw;
+  left: 66%;
+  top: 50%;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.472vw;
+  line-height: 4.375vw;
+  color: #FFFFFF;
+}
+
+.changetext3 {
+  animation: hallo3 2s forwards;
+}
+
+@keyframes hallo3 {
+  from {
+    left: 66%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+#think {
+  background: #FF974B;
+  z-index: 11;
+  position: absolute;
+  width: 62.153vw;
+  height: 46.875vw;
+  left: 38%;
+  top: 15%;
+}
+
+.changebox4 {
+  animation: hallo4 2s forwards;
+}
+
+@keyframes hallo4 {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
+#think img {
+  z-index: 14;
+  position: absolute;
+  width: 9.028vw;
+  height: 9.028vw;
+  left: 50%;
+  top: 50%;
+}
+
+.changebox5 {
+  animation: hallo5 2s forwards;
+}
+
+@keyframes hallo5 {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+#story1 {
+  z-index: 10;
+  position: absolute;
+  width: 62.153vw;
+  height: 46.875vw;
+  left: 38%;
+  top: 15%;
+  background: #FF974B;
+}
+
+.changebox6 {
+  animation: hallo6 2s forwards;
+}
+
+@keyframes hallo6 {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+#story1>p {
+  position: absolute;
+  width: 82.778vw;
+  height: 41.667vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.639vw;
+  color: #000000;
+  left: 25%;
+  top: 30%;
+}
+
+#story2 {
+  z-index: 9;
+  position: absolute;
+  width: 62.153vw;
+  height: 46.875vw;
+  left: 38%;
+  top: 15%;
+  background: #506d38;
+}
+
+.changebox7 {
+  animation: hallo7 2s forwards;
+}
+
+@keyframes hallo7 {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
+#story2>p {
+  position: absolute;
+  width: 82.778vw;
+  height: 41.667vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.639vw;
+  color: #ffffff;
+  left: 25%;
+  top: 30%;
+}
+
+
+
+#story3 {
+  z-index: 8;
+  position: absolute;
+  width: 62.153vw;
+  height: 46.875vw;
+  left: 38%;
+  top: 15%;
+  background: #355783;
+}
+
+.changebox8 {
+  animation: hallo8 2s forwards;
+}
+
+@keyframes hallo8 {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
+#story3>p {
+  position: absolute;
+  width: 82.778vw;
+  height: 41.667vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.639vw;
+  color: #ffffff;
+  left: 25%;
+  top: 30%;
+}
+
+#story4 {
+  z-index: 7;
+  position: absolute;
+  width: 62.153vw;
+  height: 46.875vw;
+  left: 38%;
+  top: 15%;
+  background: #fdda78;
+}
+
+
+
+#story4>p {
+  position: absolute;
+  width: 82.778vw;
+  height: 41.667vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.639vw;
+  color: #000000;
+  left: 25%;
+  top: 30%;
+}
+
+#storyNav0 {
+  cursor: pointer;
+  position: absolute;
+  width: 4.931vw;
+  height: 2.639vw;
+  left: 30%;
+  top: 20%;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.083vw;
+  line-height: 2.639vw;
+  z-index: 20;
+  color: #FFFFFF;
+}
+
+#storyNav1 {
+  position: absolute;
+  width: 0.556vw;
+  height: 2.153vw;
+  left: 32%;
+  top: 32%;
+  cursor: pointer;
+  z-index: 9;
+
+}
+
+#storyNav2 {
+  position: absolute;
+  width: 1.389vw;
+  height: 1.667vw;
+  left: 32%;
+  top: 40%;
+  cursor: pointer;
+  z-index: 9;
+
+}
+
+#storyNav3 {
+  position: absolute;
+  width: 1.181vw;
+  height: 2.014vw;
+  left: 32%;
+  top: 48%;
+  cursor: pointer;
+  z-index: 9;
+}
+
+#storyNav4 {
+  position: absolute;
+  width: 21px;
+  height: 27px;
+  left: 32%;
+  top: 56%;
+  cursor: pointer;
+  z-index: 9;
+}
+
+
+#sticker1 {
+  position: absolute;
+  width: 49.653vw;
+  height: 21.597vw;
+  left: 0%;
+  top: 56.8%;
+}
+
+#sticker2 {
+  position: absolute;
+  width: 39.638vw;
+  left: -1%;
+  top: -20%;
+}
+
+#storyNavBox {
+  position: absolute;
+  opacity: 0;
+  width: 10vw;
+  height: 20vw;
+  top: 15vw;
+  left: 30vw;
+  z-index: 9;
+}

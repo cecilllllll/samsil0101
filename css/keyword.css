@@ -1,0 +1,100 @@
+/*keyword page*/
+#keywordAni {
+  Width: 13.889vw;
+  Height: 13.889vw;
+  left: 43%;
+  top: 26%;
+  position: absolute;
+}
+
+
+
+#keyword {
+  width: 100vw;
+}
+
+h1 {
+  position: relative;
+  -ms-transform: translateY(400%);
+  -webkit-transform: translateY(400%);
+  transform: translateY(400%);
+  left: 0vw;
+  text-align: center;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.167vw;
+  line-height: 5.278vw;
+  color: #4151A3;
+}
+
+#slideBox {
+  width: 1600vw;
+  height: 32.639vw;
+  transition: all 0.7s;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.slideAll {
+
+  float: left;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.861vw;
+  line-height: 6.181vw;
+  text-align: center;
+  color: #7C7C7C;
+  width: 100vw;
+  vertical-align: middle;
+  position: relative;
+  top: 110%;
+  -ms-transform: translateY(-30%);
+  -webkit-transform: translateY(-30%);
+  transform: translateY(-30%);
+  height: 100%;
+
+}
+
+
+
+#L {
+  position: absolute;
+  width: 2.361vw;
+  height: 2.361vw;
+  top: 70.98%;
+  left: 20%;
+  cursor: pointer;
+  z-index: 4;
+}
+
+#R {
+  width: 2.361vw;
+  height: 2.361vw;
+  position: absolute;
+  left: 78%;
+  top: 70.98%;
+  cursor: pointer;
+  z-index: 4;
+}
+
+#curtainBox1 {
+  background: rgb(255, 255, 255);
+  width: 22vw;
+  height: 18vw;
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+}
+
+#curtainBox2 {
+  background: #ffffff;
+  width: 22vw;
+  height: 18vw;
+  position: absolute;
+  top: 50%;
+  left: 78%;
+  z-index: 3;
+}

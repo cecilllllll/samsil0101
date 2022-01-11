@@ -1,0 +1,837 @@
+#pictureA_1 {
+  position: absolute;
+  width: 28.819vw;
+  height: 47.222vw;
+  left: 0.625vw;
+  top: 7vw;
+}
+
+
+#rectA {
+  position: absolute;
+  width: 28.819vw;
+  height: 47.222vw;
+  left: 0.625vw;
+  top: 7vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectA:hover {
+  animation: hoverani1 0.5s forwards;
+}
+
+@keyframes hoverani1 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#TA {
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 12vw;
+  top: 20vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  /* or 80% */
+
+  letter-spacing: -0.011em;
+
+  color: #FFFFFF;
+
+}
+
+
+#pictureA_2 {
+  position: absolute;
+  width: 32.639vw;
+  height: 12.778vw;
+  left: 30.278vw;
+  top: 7vw;
+}
+
+#rectA_2 {
+  position: absolute;
+  width: 32.639vw;
+  height: 12.778vw;
+  left: 30.278vw;
+  top: 7vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectA_2:hover {
+  animation: hoverani2 0.5s forwards;
+}
+
+@keyframes hoverani2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#TA_2 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 12.5vw;
+  top: 6vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+
+
+}
+
+#pictureA_3 {
+  position: absolute;
+  width: 32.639vw;
+  height: 11.806vw;
+  left: 30.278vw;
+  top: 20.6vw;
+}
+
+
+
+#rectA_3 {
+  position: absolute;
+  width: 32.639vw;
+  height: 11.806vw;
+  left: 30.278vw;
+  top: 20.6vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectA_3:hover {
+  animation: hoverani3 0.5s forwards;
+}
+
+@keyframes hoverani3 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#TA_3 {
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 7vw;
+  top: 5vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+
+  color: #FFFFFF;
+
+}
+
+
+#pictureA_4 {
+  position: absolute;
+  width: 32.639vw;
+  height: 20.833vw;
+  left: 30.278vw;
+  top: 33.4vw;
+}
+
+#rectA_4 {
+  position: relative;
+  display: flex;
+  /* align-items: center;
+  justify-content: center;
+  text-align: center; */
+  width: 32.639vw;
+  height: 20.833vw;
+  left: 30.278vw;
+  top: 33.4vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectA_4:hover {
+  animation: hoverani4 0.5s forwards;
+}
+
+@keyframes hoverani4 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#TA_4 {
+  z-index: 10;
+  position: absolute;
+  left: 28%;
+  top: 9vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+#pictureA_5 {
+  position: absolute;
+  width: 8.958vw;
+  height: 15.625vw;
+  left: 63.8vw;
+  top: 7vw;
+}
+
+#rectA_5 {
+  position: absolute;
+  width: 8.958vw;
+  height: 15.625vw;
+  left: 63.8vw;
+  top: 7vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectA_5:hover {
+  animation: hoverani5 0.5s forwards;
+}
+
+@keyframes hoverani5 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#TA_5 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 40%;
+  top: 50%;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+
+
+}
+
+#pictureA_6 {
+  position: absolute;
+  width: 14.583vw;
+  height: 15.625vw;
+  left: 84.6vw;
+  top: 7vw;
+}
+
+#rectA_6 {
+  position: absolute;
+  width: 14.583vw;
+  height: 15.625vw;
+  left: 84.6vw;
+  top: 7vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectA_6:hover {
+  animation: hoverani6 0.5s forwards;
+}
+
+@keyframes hoverani6 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#TA_6 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 3vw;
+  top: 7vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+
+
+}
+
+#pictureA_7 {
+  position: absolute;
+  width: 10.417vw;
+  height: 15.625vw;
+  left: 73.5vw;
+  top: 7vw;
+}
+
+#rectA_7 {
+  position: absolute;
+  width: 10.417vw;
+  height: 15.625vw;
+  left: 73.5vw;
+  top: 7vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectA_7:hover {
+  animation: hoverani7 0.5s forwards;
+}
+
+@keyframes hoverani7 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#TA_7 {
+  z-index: 10;
+  position: absolute;
+  width: 10.417vw;
+  height: 5.347vw;
+  left: 2vw;
+  top: 7vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+#pictureA_8 {
+  position: absolute;
+  width: 35.417vw;
+  height: 30.764vw;
+  left: 63.8vw;
+  top: 23.5vw;
+}
+
+#rectA_8 {
+  position: absolute;
+  width: 35.417vw;
+  height: 30.764vw;
+  left: 63.8vw;
+  top: 23.5vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectA_8:hover {
+  animation: hoverani8 0.5s forwards;
+}
+
+@keyframes hoverani8 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#TA_8 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 13vw;
+  top: 13vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+/*pictureB*/
+#pictureB_1 {
+  position: absolute;
+  width: 36.597vw;
+  height: 30.417vw;
+  left: 1.111vw;
+  top: 7.7vw;
+}
+
+#rectB {
+  position: absolute;
+  width: 36.597vw;
+  height: 30.417vw;
+  left: 1.111vw;
+  top: 7.7vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB:hover {
+  animation: hoveraniB1 0.5s forwards;
+}
+
+#TB {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 12vw;
+  top: 14vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB1 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+#pictureB_2 {
+  position: absolute;
+  width: 14.028vw;
+  height: 15vw;
+  left: 1.111vw;
+  top: 39vw;
+
+}
+
+#rectB_2 {
+  position: absolute;
+  width: 14.028vw;
+  height: 15vw;
+  left: 1.111vw;
+  top: 39vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB_2:hover {
+  animation: hoveraniB2 0.5s forwards;
+}
+
+#TB_2 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 5vw;
+  top: 7vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+#pictureB_3 {
+  position: absolute;
+  width: 21.736vw;
+  height: 15vw;
+  left: 15.972vw;
+  top: 39vw;
+}
+
+#rectB_3 {
+  position: absolute;
+  width: 21.736vw;
+  height: 15vw;
+  left: 15.972vw;
+  top: 39vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB_3:hover {
+  animation: hoveraniB3 0.5s forwards;
+}
+
+#TB_3 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 6vw;
+  top: 7vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB3 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+#pictureB_4 {
+  position: absolute;
+  width: 29.7vw;
+  height: 17.778vw;
+  left: 38.472vw;
+  top: 7.7vw;
+}
+
+#rectB_4 {
+  position: absolute;
+  width: 29.7vw;
+  height: 17.778vw;
+  left: 38.472vw;
+  top: 7.7vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB_4:hover {
+  animation: hoveraniB4 0.5s forwards;
+}
+
+#TB_4 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 6vw;
+  top: 7.5vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB4 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#pictureB_5 {
+  position: absolute;
+  width: 24.7vw;
+  height: 28vw;
+  left: 38.472vw;
+  top: 26.3vw;
+}
+
+#rectB_5 {
+  position: absolute;
+  width: 24.7vw;
+  height: 28vw;
+  left: 38.472vw;
+  top: 26.3vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB_5:hover {
+  animation: hoveraniB5 0.5s forwards;
+}
+
+#TB_5 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 6vw;
+  top: 12vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB5 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+#pictureB_6 {
+  position: absolute;
+  width: 30vw;
+  height: 17.778vw;
+  left: 69vw;
+  top: 7.7vw;
+}
+
+#rectB_6 {
+  position: absolute;
+  width: 30vw;
+  height: 17.778vw;
+  left: 69vw;
+  top: 7.7vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB_6:hover {
+  animation: hoveraniB6 0.5s forwards;
+}
+
+#TB_6 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 12vw;
+  top: 7.5vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB6 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+#pictureB_7 {
+  position: absolute;
+  width: 23.7vw;
+  height: 10.3vw;
+  left: 63.7vw;
+  top: 26.4vw;
+  cursor: pointer;
+}
+
+#rectB_7 {
+  position: absolute;
+  width: 23.2vw;
+  height: 9.7vw;
+  left: 63.9vw;
+  top: 26.4vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB_7:hover {
+  animation: hoveraniB7 0.5s forwards;
+}
+
+#TB_7 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 6vw;
+  top: 4vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB7 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#pictureB_8 {
+  position: absolute;
+  width: 11vw;
+  height: 9.7vw;
+  left: 88vw;
+  top: 26.4vw;
+}
+
+#rectB_8 {
+  position: absolute;
+  width: 11vw;
+  height: 9.7vw;
+  left: 88vw;
+  top: 26.4vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB_8:hover {
+  animation: hoveraniB8 0.5s forwards;
+}
+
+#TB_8 {
+  z-index: 10;
+  position: absolute;
+  width: 20.486vw;
+  height: 5.347vw;
+  left: 1vw;
+  top: 3.5vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB8 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+#pictureB_9 {
+  position: absolute;
+  width: 35vw;
+  height: 17vw;
+  left: 64vw;
+  top: 37.083vw;
+}
+
+#rectB_9 {
+  position: absolute;
+  width: 35vw;
+  height: 17vw;
+  left: 64vw;
+  top: 37.083vw;
+  background: rgba(65, 81, 163, 0.73);
+  opacity: 0;
+  cursor: pointer;
+}
+
+#rectB_9:hover {
+  animation: hoveraniB9 0.5s forwards;
+}
+
+#TB_9 {
+  z-index: 10;
+  position: absolute;
+  width: 20.833vw;
+  height: 5.347vw;
+  left: 6vw;
+  top: 7.5vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-size: 2.083vw;
+  line-height: 1.667vw;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+}
+
+
+@keyframes hoveraniB9 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

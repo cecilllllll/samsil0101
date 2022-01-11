@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    body,
+    html,
+    h1 {
+    margin: 0;
+    padding: 0;
+    }
+    .background{
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      display: block;
+      scrollbar-width: none;
+       scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+    scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+    }
+
+    section{     
+        position: relative;
+      background: #A26887;
+      height: 100vh;
+      display: block;
+      overflow: hidden;
+        scroll-snap-align: start;
+    }
+
+    #classic_Title{
+     position: relative;
+      width: 78.889vw;
+      height: 17.014vw;
+      top: 8vw;
+    }
+
+
+
+    #classic_Title>h1:nth-child(1){
+      position: absolute;
+      font-family: 'Poiret One', cursive;
+      font-size: 6.457vw;
+      width: 50.817vw;
+      height: 7.361vw;
+      left: 26vw;
+    }
+     #classic_Title>h1:nth-child(2){
+        position: absolute;
+        width: 50.817vw;
+        height: 7.361vw;
+        font-family: 'Poiret One', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 6.457vw;
+        line-height: 7.569vw;
+        color: rgba(0, 0, 0, 0.38);
+        left: 34vw;
+        top: 8vw;}
+
+      .musician>img:nth-child(1){
+        position: absolute;
+        width: 25.347vw;
+        height: 30.208vw;
+        left: 3vw;
+        top: 22vw;
+      }
+
+      .musician>img:nth-child(2){
+        position: absolute;
+        width: 24.097vw;
+        height: 24.167vw;
+        left: 32vw;
+        top: 28vw;
+      }
+
+      .textTitle{
+        position: absolute;
+        width: 61.667vw;
+        height: 5.139vw;
+        font-family: 'Poiret One', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        line-height: 2.569vw;
+        margin-top: 8vw;
+        left: 5vw;
+      }
+
+      .musics{
+        position: relative;
+        left: 1.5vw;
+        top: 6vw;
+      }
+
+      #music>h1{
+        position: absolute;
+          width: 65.069vw;
+          height: 15.556vw;
+          font-family: 'Pacifico', cursive;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 1.25vw;
+          line-height: 2.222vw;
+          color: #000000;
+          margin-top: 16vw;
+           margin-left: -5vw;
+          text-align: center;
+      }
+
+       #music2>h1{
+          position: absolute;
+            width: 65.069vw;
+            height: 15.556vw;
+            font-family: 'Pacifico', cursive;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.25vw;
+            line-height: 2.222vw;
+            color: #000000;
+             margin-top: 16vw;
+            margin-left: 35vw;
+               text-align: center;
+      }
+
+      #music>p{
+        position: absolute;
+        width: 65.069vw;
+        height: 15.556vw;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.25vw;
+        line-height: 2.222vw;
+        margin-top: 20vw;
+            margin-left: -5vw;
+        color: #000000;
+        text-align: center;
+      }
+
+        #music2>p{
+        position: absolute;
+        width: 65.069vw;
+        height: 15.556vw;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.25vw;
+        line-height: 2.222vw;
+        margin-top: 20vw;
+        margin-left: 37vw;
+        color: #000000;
+        text-align: center;
+      }
+      
+       #music> .LinkBox>a{
+        text-align:center;
+        position: absolute;
+        background: #63354E;
+        width: 8.611vw;
+        height: 3.403vw;
+        border-radius: 2.465vw;
+        margin-top: 35vw;
+        margin-left: 23vw;
+      }
+
+
+      #music> .LinkBox > a > p{
+        width: 8.611vw;
+        height: 3.403vw;
+        position: absolute;
+        color: white;
+        font-size: 0.8vw;
+        text-decoration: none;
+        z-index: 3;
+        top: 0.5vw;
+      }
+
+      #music2> .LinkBox>a{
+        text-align:center;
+        position: absolute;
+        background: #63354E;
+        width: 8.611vw;
+        height: 3.403vw;
+        border-radius: 2.465vw;
+        margin-top: 35vw;
+        margin-left: 65vw;
+      }
+
+
+      #music2> .LinkBox > a > p{
+        width: 8.611vw;
+        height: 3.403vw;
+        position: absolute;
+        color: white;
+        font-size: 0.8vw;
+        text-decoration: none;
+        z-index: 3;
+        top: 0.5vw;
+      }
+
+      #classicStory{
+        text-align: center;
+        font-size: 1.5vw;
+        position: absolute;
+        width: 65.069vw;
+        height: 11vw;
+        font-family: 'Pacifico', cursive;
+        top: 27vw;
+        left: 20vw;
+        color: white;
+        background: #63354E;
+        border-radius: 2.465vw;
+      }
+
+      #classicStoryBackground{
+        opacity: 0.6;
+        position: absolute;
+        width: 85vw;
+        height: 40vw;
+        top: 12vw;
+        left: 8vw;
+      }
+
+      #more{
+        position: absolute;
+        width: 10.625vw;
+        height: 3.472vw;
+        font-family: 'Poiret One', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        line-height: 2.917vw;
+        color: #000000;
+        text-decoration: none;
+        top: 50vw;
+        left: 90vw;
+      }
+
+
+  </style>
+</head>
+<body>
+  <div class="background">
+    <section>
+      <div id="classic_Title">
+        <h1>ABOUT, CLASSIC</h1>
+        <h1>ABOUT, CLASSIC</h1>
+      </div>
+      <div class="musician">
+        <img src="https://user-images.githubusercontent.com/94329566/148141475-6a8405a8-2787-45b9-aa97-1a89613b79cc.png">
+        <img src="https://user-images.githubusercontent.com/94329566/148141496-a8cba809-43c2-4f74-8204-36607d7e6703.png">
+      </div>
+    </section>
+     <section>
+      <div class="textTitle"> THEIR MUSIC </div>
+      <div class=" musics">
+        <div id="music">
+          <h1>Chopin - ballade no 4 in F Minor, Op.52</h1>
+            <p>나는 이 곡을 들으면 마음이 이상하게 마음이 붕 뜬다. <br>
+          초반에는 낭만적이고 부드러운 분위기가 조성이되고 <br>
+          행복함을 얻을 수 있다가 차가운 분위기로 조용해진다. <br>
+          하지만 그 차가운 분위기는 나쁘지 않다. 마치 밝은 빛을 향해 <br>
+          걸어가는 느낌이다. 슬픈 것 같으면서도 희망을 노래한다</p>
+          <div class="LinkBox">
+            <a href="https://www.youtube.com/watch?v=e1kSNJOReco">
+              <p>음악 들으러가기</p>
+            </a>
+          </div>
+        </div>
+        <div id="music2">
+          <h1>Tchaikovsky - Violin Concerto in D Major, op 35</h1>
+            <p>이 곡은 밝은 빛을 준다. 초반에 희망으로 가득한 기쁨을 노래하고 <br>
+            음악이 계속될수록 기쁨을 넘어선 다짐처럼 들리기도 한다. <br>
+            그 행복의 음악이 내 심장을 울린다. 하지만 이 노래도 기쁨 그 자체 만을 <br>
+            이야기하진 않는다. 묘하게 우울함과 애잔함이라는 감정이 섞여있다.</p>
+          <div class="LinkBox">
+            <a href="https://www.youtube.com/watch?v=ovFPKu00cCc">
+              <p>음악 들으러가기</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <img id="classicStoryBackground" src="https://user-images.githubusercontent.com/94329566/148228889-f27ee719-ce8a-4be2-891b-da772eb98e86.jpeg">
+      <div class="textTitle">TO ME...</div>
+      <div id="classicStory">
+        <p>"쇼팽과 차이콥스키는 같은 낭만주의의 대표적 작곡가로 둘의 음악에는 비슷한 면이 있다. <br>
+          위 두 음악의 공통점은 복합적인 감정을 표현하였다는 것.<br>
+          그리고 그로 인해 내가 마음의 위로를 얻었다는 것 또한 공통점이었다."</p>
+      </div>
+      <a id="more" href="./이지팀_세실_M2개인주제.pdf" download="newfilename">more»</a>
+    </section>
+  </div>
+</body>
+</html>

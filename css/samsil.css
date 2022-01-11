@@ -1,0 +1,33 @@
+/*mainpage*/
+.title {
+  font-family: 'KyoboHandwriting2020A';
+  color: #4151A3;
+  font-size: 96px;
+  width: 388px;
+  height: 132px;
+  left: 39%;
+  top: 40%;
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+}
+
+#animation {
+  width: 50%;
+  height: 50%;
+  left: 0px;
+  top: 400px;
+}
+
+#gif {
+  width: 100vw;
+  height: 60vw;
+  margin-top: 30%;
+}
+
+#ani {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  object-fit: contain;
+}

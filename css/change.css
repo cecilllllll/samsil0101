@@ -1,0 +1,713 @@
+#change {
+  background: #7C7C7C;
+  width: 100%;
+  height: 100%;
+}
+
+/* star */
+
+#oneStar {
+  z-index: 1;
+  position: absolute;
+  width: 8vw;
+  height: 8vw;
+  font-size: 6.944vw;
+  left: 18.542vw;
+  top: 19.028vw;
+  color: #D0D19E;
+  cursor: pointer;
+  animation: startwinkle 0.8s infinite;
+  animation-direction: alternate;
+  background: none;
+  border: none;
+}
+
+#oneBackground {
+  position: absolute;
+  width: 9.306vw;
+  height: 8.958vw;
+  left: 17vw;
+  top: 18vw;
+  background: rgba(243, 228, 86, 0.15);
+  filter: blur(2.083vw);
+  opacity: 0;
+}
+
+#oneStar:hover+#oneBackground {
+  opacity: 1;
+}
+
+@keyframes startwinkle {
+  from {
+    color: #eef593;
+  }
+
+  to {
+    color: #FBFF42;
+  }
+}
+
+#oneLine {
+  z-index: 0;
+  position: absolute;
+  width: 15.972vw;
+  height: 0vw;
+  left: 21vw;
+  top: 27.8vw;
+  transform: rotate(33deg);
+  border: 0.139vw solid #4151A3;
+}
+
+#twoStar {
+  z-index: 1;
+  position: absolute;
+  width: 8vw;
+  height: 8vw;
+  font-size: 6.944vw;
+  left: 32vw;
+  top: 28vw;
+  color: #E2E47C;
+  cursor: pointer;
+  animation: startwinkle2 0.8s infinite;
+  animation-direction: alternate;
+  background: none;
+  border: none;
+}
+
+#twoBackground {
+  position: absolute;
+  width: 9.306vw;
+  height: 8.958vw;
+  left: 32vw;
+  top: 28vw;
+  background: rgba(243, 228, 86, 0.15);
+  filter: blur(30px);
+  opacity: 0;
+}
+
+#twoStar:hover+#twoBackground {
+  opacity: 1;
+}
+
+
+@keyframes startwinkle2 {
+  from {
+    color: #f3f734;
+  }
+
+  to {
+    color: #eef593;
+  }
+}
+
+
+#twoLine {
+  z-index: 0;
+  position: absolute;
+  width: 15.972vw;
+  height: 0vw;
+  left: 34vw;
+  top: 28.264vw;
+  transform: rotate(-35deg);
+  border: 0.139vw solid #4151A3;
+}
+
+
+#threeStar {
+  z-index: 1;
+  position: absolute;
+  width: 8vw;
+  height: 8vw;
+  font-size: 6.944vw;
+  left: 46vw;
+  top: 19.028vw;
+  color: #F3E456;
+  cursor: pointer;
+  animation: startwinkle3 0.9s infinite;
+  animation-direction: alternate;
+  background: none;
+  border: none;
+}
+
+#threeBackground {
+  position: absolute;
+  width: 9.306vw;
+  height: 8.958vw;
+  left: 46vw;
+  top: 19.028vw;
+  background: rgba(243, 228, 86, 0.15);
+  filter: blur(30px);
+  opacity: 0;
+}
+
+#threeStar:hover+#threeBackground {
+  opacity: 1;
+}
+
+
+@keyframes startwinkle3 {
+  from {
+    color: #eef593;
+  }
+
+  to {
+    color: #f7e756;
+  }
+}
+
+#threeLine {
+  z-index: 0;
+  position: absolute;
+  width: 18.056vw;
+  height: 0vw;
+  left: 47.2vw;
+  top: 30vw;
+  transform: rotate(52deg);
+  border: 2px solid #4151A3;
+}
+
+#fourStar {
+  z-index: 1;
+  position: absolute;
+  width: 8vw;
+  height: 8vw;
+  font-size: 6.944vw;
+  left: 58vw;
+  top: 32.986vw;
+  color: #F1EA3B;
+  cursor: pointer;
+  animation: startwinkle4 0.9s infinite;
+  animation-direction: alternate;
+  background: none;
+  border: none;
+}
+
+#fourBackground {
+  position: absolute;
+  width: 9.306vw;
+  height: 8.958vw;
+  left: 58vw;
+  top: 32vw;
+  background: rgba(243, 228, 86, 0.15);
+  filter: blur(2.083vw);
+  opacity: 0;
+}
+
+#fourStar:hover+#fourBackground {
+  opacity: 1;
+}
+
+
+@keyframes startwinkle4 {
+  from {
+    color: #eef593;
+  }
+
+  to {
+    color: #ffe70d;
+  }
+}
+
+#fourLine {
+  z-index: 0;
+  position: absolute;
+  width: 18.056vw;
+  height: 0vw;
+  left: 60vw;
+  top: 34vw;
+  transform: rotate(-25deg);
+  border: 0.139vw solid #4151A3;
+}
+
+#fiveStar {
+  z-index: 1;
+  position: absolute;
+  width: 8vw;
+  height: 8vw;
+  font-size: 6.944vw;
+  left: 74vw;
+  top: 26vw;
+  color: #DEC87A;
+  cursor: pointer;
+  animation: startwinkle5 0.9s infinite;
+  animation-direction: alternate;
+  background: none;
+  border: none;
+}
+
+#fiveBackground {
+  position: absolute;
+  width: 9.306vw;
+  height: 8.958vw;
+  left: 74vw;
+  top: 25vw;
+  background: rgba(243, 228, 86, 0.15);
+  filter: blur(2.083vw);
+  opacity: 0;
+}
+
+#fiveStar:hover+#fiveBackground {
+  opacity: 1;
+}
+
+
+@keyframes startwinkle5 {
+  from {
+    color: #eef593;
+  }
+
+  to {
+    color: #dac066;
+  }
+}
+
+/*팝업창*/
+.hide {
+  display: none;
+}
+
+
+.popBackgroundShadow {
+  position: absolute;
+  width: 62.569vw;
+  height: 36.667vw;
+  left: 19.5vw;
+  top: 12.639vw;
+  z-index: 1;
+  background: #999393;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25);
+}
+
+.popBackground {
+  position: absolute;
+  width: 61.597vw;
+  height: 36.389vw;
+  left: 19.5vw;
+  top: 13.472vw;
+  z-index: 2;
+  background: #C4C4C4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.popupTitle {
+  position: absolute;
+  width: 100vw;
+  height: 2.222vw;
+  left: 28.5vw;
+  top: 21.389vw;
+  z-index: 2;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.222vw;
+  /* identical to box height */
+  color: #000000;
+}
+
+/* popup1 */
+
+#popupimgSlide1_img {
+  position: absolute;
+  width: 8.958vw;
+  height: 11.458vw;
+  left: 27vw;
+  top: 24.861vw;
+  z-index: 2;
+}
+
+#popupimgSlide1_img2 {
+  position: absolute;
+  width: 8.958vw;
+  height: 11.458vw;
+  left: 27vw;
+  top: 24.861vw;
+  z-index: 2;
+  opacity: 0;
+}
+
+
+#popupBtn1_left {
+  cursor: pointer;
+}
+
+#popupBtn1_left:hover>#popupBtn1_left_B {
+  left: 22.1vw;
+  top: 29.2vw;
+  width: 3.07vw;
+  height: 2.94vw;
+}
+
+#popupBtn1_left:hover>#popupBtn1_left_A {
+  top: 30vw;
+  left: 23vw;
+}
+
+
+
+#popupBtn1_left_A {
+  position: absolute;
+  left: 22.9vw;
+  top: 29.9vw;
+  z-index: 4;
+  width: 0.972vw;
+}
+
+
+
+#popupBtn1_left_B {
+  position: absolute;
+  width: 2.917vw;
+  height: 2.917vw;
+  left: 22vw;
+  top: 29vw;
+  z-index: 3;
+  background: #E194BE;
+  border: 0.12vw solid #000000;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+
+
+#popupBtn1_left_C {
+  z-index: 2;
+  position: absolute;
+  width: 3.1vw;
+  height: 3.1vw;
+  left: 22.1vw;
+  top: 29.1vw;
+  border-radius: 50%;
+  background: #A26887;
+  border: 0.069vw solid #000000;
+  box-sizing: border-box;
+}
+
+#popupBtn1_right {
+  cursor: pointer;
+}
+
+#popupBtn1_right:hover>#popupBtn1_right_A {
+  left: 39vw;
+  top: 30vw;
+}
+
+#popupBtn1_right:hover>#popupBtn1_right_B {
+  width: 3.07vw;
+  height: 2.94vw;
+  left: 38.1vw;
+  top: 29.2vw;
+}
+
+#popupBtn1_right_A {
+  position: absolute;
+  left: 38.8vw;
+  top: 29.8vw;
+  z-index: 4;
+  width: 0.972vw;
+  transform: rotate(60deg);
+}
+
+
+#popupBtn1_right_B {
+  position: absolute;
+  width: 2.917vw;
+  height: 2.917vw;
+  left: 38vw;
+  top: 29vw;
+  z-index: 3;
+  background: #E194BE;
+  border: 0.12vw solid #000000;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+#popupBtn1_right_C {
+  z-index: 2;
+  position: absolute;
+  width: 3.15vw;
+  height: 3.15vw;
+  left: 38.1vw;
+  top: 29.1vw;
+  border-radius: 50%;
+  background: #A26887;
+  border: 0.069vw solid #000000;
+  box-sizing: border-box;
+}
+
+#pinkR {
+  position: absolute;
+  width: 2.431vw;
+  height: 1.528vw;
+  left: 58vw;
+  top: 27.431vw;
+  z-index: 2;
+}
+
+#popupText {
+  position: absolute;
+  width: 33.194vw;
+  height: 6.667vw;
+  left: 45vw;
+  top: 30vw;
+  z-index: 2;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.597vw;
+  line-height: 2.222vw;
+  color: #000000;
+}
+
+.closePopupPng {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 75.3vw;
+  top: 16.944vw;
+  z-index: 5;
+}
+
+.popupClose {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.popupClose:hover>.popupCloseBack {
+  width: 6.181vw;
+  height: 2.986vw;
+  left: 72.917vw;
+  top: 16.3vw;
+}
+
+.popupClose:hover>.closePopupPng {
+  left: 75.5vw;
+  top: 17vw;
+}
+
+.popupCloseBack {
+  position: absolute;
+  width: 5.903vw;
+  height: 2.708vw;
+  left: 72.917vw;
+  top: 16.319vw;
+  z-index: 4;
+  background: #FF4242;
+  border: 0.069vw solid #000000;
+  box-sizing: border-box;
+}
+
+.popupCloseBackShadow {
+  position: absolute;
+  width: 6.181vw;
+  height: 2.986vw;
+  left: 72.917vw;
+  top: 16.3vw;
+  z-index: 3;
+  background: #9C2C2C;
+  border: 0.069vw solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0vw 0.278vw 0.278vw rgba(0, 0, 0, 0.25);
+}
+
+/* popup2 */
+
+#popupBackgroundSticker1 {
+  position: absolute;
+  width: 32.014vw;
+  height: 14.861vw;
+  left: 49vw;
+  top: 13.52vw;
+  z-index: 2;
+}
+
+#popupBackgroundSticker2 {
+  position: absolute;
+  width: 27.153vw;
+  height: 32.431vw;
+  left: 13.9vw;
+  top: 27.37vw;
+  z-index: 2;
+}
+
+#popupImgOne1 {
+  position: absolute;
+  height: 17vw;
+  left: 27vw;
+  top: 25vw;
+  z-index: 4;
+}
+
+#popupImgOne2 {
+  position: absolute;
+  width: 23.903vw;
+  left: 53vw;
+  top: 28.264vw;
+  z-index: 4;
+}
+
+#popup2Text {
+  position: absolute;
+  width: 18.403vw;
+  height: 2.222vw;
+  left: 61vw;
+  top: 24.722vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.222vw;
+  color: #FFFFFF;
+  z-index: 4;
+}
+
+/* popup3 */
+
+#popupBackgroundSticker3 {
+  position: absolute;
+  width: 61.458vw;
+  height: 17vw;
+  z-index: 4;
+  top: 19.25vw;
+  background: #4151A3;
+}
+
+#popupImgSlide2 {
+  position: absolute;
+  height: 22.847vw;
+  top: 20vw;
+  width: 61.597vw;
+  left: 19.5vw;
+}
+
+#popupBtn2_left>img {
+  position: absolute;
+  width: 3.333vw;
+  height: 3.681vw;
+  cursor: pointer;
+  z-index: 4;
+  top: 5.347vw;
+  left: 5.139vw;
+}
+
+#popupBtn2_left:hover>img {
+  top: 5.7vw;
+  left: 5vw;
+}
+
+#popupBtn2_right>img {
+  position: absolute;
+  width: 3.333vw;
+  height: 3.681vw;
+  left: 71.389vw;
+  cursor: pointer;
+  transform: scaleX(-1);
+  z-index: 4;
+  top: 5.347vw;
+  left: 53.056vw;
+}
+
+#popupBtn2_right:hover>img {
+  top: 5.7vw;
+  left: 53.4vw;
+}
+
+#popupimgSlide2_img {
+  position: absolute;
+  width: 22.292vw;
+  height: 16.667vw;
+  left: 20.625vw;
+  top: 3.194vw;
+  z-index: 4;
+}
+
+
+#popupimgSlide2_img2 {
+  position: absolute;
+  width: 22.292vw;
+  height: 16.667vw;
+  z-index: 3;
+  left: 20.625vw;
+  top: 3.194vw;
+}
+
+/* popup4 */
+
+.allNowImg span:nth-child(1)>img {
+  position: absolute;
+  width: 19.167vw;
+  height: 23.403vw;
+  left: 38vw;
+  top: 17.917vw;
+  z-index: 5;
+}
+
+.allNowImg span:nth-child(2) {
+  position: absolute;
+  width: 21.458vw;
+  height: 24.375vw;
+  left: 38.3vw;
+  top: 20.069vw;
+  background: #4E4B39;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 4;
+}
+
+.allNowImg span:nth-child(3) {
+  position: absolute;
+  width: 21.458vw;
+  height: 24.375vw;
+  left: 40.5vw;
+  top: 22.431vw;
+  background: #4E4B39;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.deco>h1 {
+  position: absolute;
+  width: 5.556vw;
+  height: 2.986vw;
+  left: 70vw;
+  top: 22vw;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.778vw;
+  line-height: 3.542vw;
+  color: #4E4B39;
+  z-index: 3;
+}
+
+.deco>img {
+  position: absolute;
+  width: 2.727vw;
+  height: 2.752vw;
+  left: 68vw;
+  top: 25vw;
+  z-index: 3;
+}
+
+/* popup5 */
+#popup5Box {
+  position: absolute;
+  width: 17.847vw;
+  height: 17.639vw;
+  left: 43vw;
+  top: 23.472vw;
+  background: #000000;
+  font-size: 13.889vw;
+  color: white;
+  font-family: 'KyoboHandwriting2020A';
+  z-index: 3;
+  text-align: center;
+}

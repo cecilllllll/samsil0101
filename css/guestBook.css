@@ -1,0 +1,62 @@
+#backgroundStickerGuestBook1 {
+  position: absolute;
+  width: 100vw;
+  left: 10vw;
+  opacity: 0.5;
+  height: 57.847vw;
+}
+
+#backgroundStickerGuestBook2 {
+  position: absolute;
+  width: 100vw;
+  height: 19.931vw;
+  top: 30vw;
+  opacity: 0.5;
+}
+
+#backgroundStickerGuestBook3 {
+  position: absolute;
+  width: 100vw;
+  height: 57.153vw;
+  opacity: 0.5;
+}
+
+
+
+#guestT {
+  display: inline-block;
+  position: absolute;
+  font-family: 'KyoboHandwriting2020A';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6.667vw;
+  line-height: 8.403vw;
+  color: #4151A3;
+  left: 40%;
+  top: 40%;
+}
+
+
+
+#comment-input {
+  position: absolute;
+  width: 25vw;
+  height: 3.819vw;
+  left: 39vw;
+  top: 45.278vw;
+  border: none;
+  background: #C4C4C4;
+}
+
+/* #submit {
+  font-size: 2.5vw;
+  background: #808080;
+  text-decoration: none;
+  position: absolute;
+  width: 5.764vw;
+  height: 3.819vw;
+  left: 67vw;
+  top: 45.278vw;
+  cursor: pointer;
+  font-family: 'KyoboHandwriting2020A';
+} */
